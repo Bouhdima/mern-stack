@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import './App.css';
-import { BrowserRouter, Route, Routes,Link } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 
@@ -8,7 +9,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <header>
-          <Link  to="/">Bouhdima</Link>
+          <Link to="/">Bouhdima</Link>
         </header>
         <main>
           <Routes>
